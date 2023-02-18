@@ -195,8 +195,24 @@ a {
 
 .clients .icon-clients {
     display: flex;
-    margin-top: 96.5px;
+    margin-top: 70px;
     justify-content: space-between;
+    justify-content: center;
+}
+
+.clients .icon-clients .icon-item {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 90px;
+    border-radius: 15px;
+}
+
+.clients .icon-clients .icon-item:hover {
+    transition: 1s;
+    box-shadow: -3px 65px 97px -25px rgba(0,0,0,0.27);
+    -webkit-box-shadow: -3px 65px 97px -25px rgba(0,0,0,0.27);
+    -moz-box-shadow: -3px 65px 97px -25px rgba(0,0,0,0.27);
 }
 
 .How{
