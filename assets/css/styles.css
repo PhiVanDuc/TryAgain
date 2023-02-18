@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -329,49 +333,49 @@ a {
 /* --------------------------------------- Featured --------------------------------------- */
 /* --------------------------------------- Featured --------------------------------------- */
 /* --------------------------------------- Featured --------------------------------------- */
-.featured {
+#featured {
     margin-top: 120px;
     padding: 110px 0;
     background-color: #F5FAFE;
 }
 
-.featured .row {
+#featured .row {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
 }
 
-.featured .desc { 
+#featured .desc { 
     line-height: 1.88;
 }
 
-.featured .link {
+#featured .link {
     text-decoration: none;
     font-weight: 600;
     font-size: 1.8rem;
     color: #0689FF;
 }
 
-.featured .link .arrow {
+#featured .link .arrow {
     position: relative;
     top: -2px;
     margin-left: 8px;
 }
 
-.featured .list {
+#featured .list {
     display: flex;
     margin-top: 70px;
     gap: 30px;
 }
 
-.featured .item {
+#featured .item {
     border: 12px;
     background-color: white;
     border-radius: 12px;
     flex: 1;
 }
 
-.featured .item .thumb {
+#featured .item .thumb {
     width: 100%;
     flex: 1;
     height: 227px;
@@ -380,18 +384,18 @@ a {
     border-top-left-radius: 12px;
 }
 
-.featured .item .body {
+#featured .item .body {
     padding: 17px 20px 24px;
 }
 
-.featured .item .title a {
+#featured .item .title a {
     font-weight: 600;
     font-size: 2rem;
     line-height: 1.5;
     color: #000339;
 }
 
-.featured .item .desc {
+#featured .item .desc {
     margin-top: 11px;
     font-weight: 500;
     font-size: 1.4rem;
@@ -400,24 +404,24 @@ a {
     word-break: break-all;
 }
 
-.featured .item .info {
+#featured .item .info {
     display: flex;
     align-items: center;
     margin-top: 21px;
 }
 
-.featured .item .label {
+#featured .item .label {
     font-weight: 500;
     font-size: 14px;
     color: #4D4D52;
     margin-left: 8px;
 }
 
-.featured .item .icon {
+#featured .item .icon {
     margin-left: 22px;
 }
 
-.featured .item .icon:first-child {
+#featured .item .icon:first-child {
     margin-left: 0;
 }
 
